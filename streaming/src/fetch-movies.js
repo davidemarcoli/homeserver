@@ -11,11 +11,9 @@ const options = {
 fetch('https://api.themoviedb.org/3/discover/movie?language=en-US&page=1&sort_by=popularity.desc', options)
     .then(response => response.json())
     .then(response => {
-        if (!response) {
-            console.error("No results found")
-            return
-        }
         fs.writeFileSync('movies.json', JSON.stringify(response.results, null, 2));
+        const titles = response.results.map(movie => movie.title);
+        fs.writeFileSync('movies-titles.json', JSON.stringify(titles, null, 2));
         console.log(response)
     })
     .catch(err => console.error(err));
