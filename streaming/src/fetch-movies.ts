@@ -1,4 +1,5 @@
 import fs from 'fs';
+import Movie from './movie';
 
 const options = {
     method: 'GET',
@@ -10,9 +11,12 @@ const options = {
 
 fetch('https://api.themoviedb.org/3/discover/movie?language=en-US&page=1&sort_by=popularity.desc', options)
     .then(response => response.json())
-    .then(response => {
-        fs.writeFileSync('movies.json', JSON.stringify(response.results, null, 2));
-        const titles = response.results.map(movie => movie.title);
+    .then((response: any) => {
+
+        const movies: Movie[] = response.results;
+
+        fs.writeFileSync('movies.json', JSON.stringify(movies, null, 2));
+        const titles = movies.map(movie => movie.title);
         fs.writeFileSync('movies-titles.json', JSON.stringify(titles, null, 2));
         console.log(response)
     })
