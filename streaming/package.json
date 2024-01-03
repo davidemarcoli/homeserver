@@ -2,6 +2,9 @@
   "name": "homeserver-streaming",
   "version": "1.0.0",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "unirest": "^0.6.0",
+    "nodemailer": "^6.9.8"
   },
   "module": "src/index.ts",
   "type": "module",

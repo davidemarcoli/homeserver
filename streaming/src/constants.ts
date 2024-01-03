@@ -1,0 +1,1 @@
+export const RATING_THRESHOLD = 7.2;
