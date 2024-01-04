@@ -31,7 +31,7 @@ const fetchWeeklyMostPiratedMovies = async () => {
         movies: filteredMovies
     }
 
-    fs.writeFileSync('out/weekly-most-pirated-movies.json', JSON.stringify(output, null, 2));
+    fs.writeFileSync(import.meta.dir + '/../out/weekly-most-pirated-movies.json', JSON.stringify(output, null, 2));
 }
 
 fetchWeeklyMostPiratedMovies();
