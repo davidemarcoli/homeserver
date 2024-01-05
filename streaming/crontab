@@ -25,5 +25,5 @@
 # 
 # m h  dom mon dow   command
 
-0 8 * * 2 (/home/davidemarcoli/.bun/bin/bun /home/davidemarcoli/IdeaProjects/homeserver/streaming/src/fetch-weekly-most-pirated-movies.ts && MAIL=xxxxxxx@xxxxx.xx MAIL_PASSWORD="xxxx xxxx xxxx xxxx" /home/davidemarcoli/.bun/bin/bun /home/davidemarcoli/IdeaProjects/homeserver/streaming/src/mail-weekly-most-pirated-movies.ts) >> /home/davidemarcoli/test.log 2>&1
+0 8 * * 2 (~/.bun/bin/bun ~/IdeaProjects/homeserver/streaming/src/fetch-weekly-most-pirated-movies.ts && MAIL=xxxxxxx@xxxxx.xx MAIL_PASSWORD="xxxx xxxx xxxx xxxx" ~/.bun/bin/bun ~/IdeaProjects/homeserver/streaming/src/mail-weekly-most-pirated-movies.ts) >> ~/weekly-most-pirated-movies.log 2>&1
 
