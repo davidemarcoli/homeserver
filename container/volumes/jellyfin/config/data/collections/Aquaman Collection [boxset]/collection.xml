@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Item>
+  <ContentRating>PG-13</ContentRating>
+  <Added>02/12/2024 19:56:57</Added>
+  <LockData>true</LockData>
+  <LocalTitle>Aquaman Collection</LocalTitle>
+  <PremiereDate>2023-12-20</PremiereDate>
+  <DisplayOrder>PremiereDate</DisplayOrder>
+  <ProductionYear>2023</ProductionYear>
+  <Genres>
+    <Genre>Action</Genre>
+    <Genre>Adventure</Genre>
+    <Genre>Fantasy</Genre>
+  </Genres>
+  <Studios>
+    <Studio>Warner Bros. Pictures</Studio>
+    <Studio>The Safran Company</Studio>
+    <Studio>Atomic Monster</Studio>
+    <Studio>DC Films</Studio>
+    <Studio>Domain Entertainment</Studio>
+  </Studios>
+  <CollectionItems>
+    <CollectionItem>
+      <Path>/media/movies/Aquaman.and.the.Lost.Kingdom.2023.1080p.WEB-DL.DDP5.1.Atmos.H.264-FLUX[TGx]/Aquaman.and.the.Lost.Kingdom.2023.1080p.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/media/movies/[ Torrent911.cx ] Aquaman.and.the.Lost.Kingdom.2023.MULTi.VFQ.HDR.2160p.WEB.H265-FW.mkv/[ Torrent911.cx ] Aquaman.and.the.Lost.Kingdom.2023.MULTi.VFQ.HDR.2160p.WEB.H265-FW.mkv</Path>
+    </CollectionItem>
+  </CollectionItems>
+</Item>

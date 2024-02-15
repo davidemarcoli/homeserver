@@ -1,0 +1,15 @@
+{
+  "category": "General",
+  "changelog": "### New features and improvements ###\n- Use history api for importing episodes from trakt (#205) @h3llrais3r\n\n### Bug Fixes ###\n- Fix duplicate watched entries (#224) @buthed010203\n- Fix pagination when no items are present (#215) @kade-robertson\n\n### Code or Repo Maintenance ###\n- Code cleanup (#225) @crobibero\n\n### Documentation updates ###\n- Typo - Update trakt.html (#206) @Awolize\n- small correction to trakt.html (#202) @veloute",
+  "description": "Record your watched media with Trakt.\n",
+  "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
+  "name": "Trakt",
+  "overview": "Record your watched media with Trakt",
+  "owner": "jellyfin",
+  "targetAbi": "10.8.12.0",
+  "timestamp": "2023-11-27T13:15:03.0000000Z",
+  "version": "24.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/plugins/Trakt_24.0.0.0/jellyfin-plugin-trakt.png"
+}

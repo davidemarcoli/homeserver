@@ -1,0 +1,24 @@
+version: "3"
+services:
+    jellyfin:
+        volumes:
+            - ../../volumes/jellyfin/config:/config
+            - /tmp/jellyfin/cache:/cache
+            - realdebrid:/media
+        network_mode: host
+        container_name: jellyfin
+        restart: unless-stopped
+        runtime: nvidia
+        deploy:
+            resources:
+                reservations:
+                    devices:
+                        - driver: nvidia
+                          count: all
+                          capabilities:
+                              - gpu
+        image: jellyfin/jellyfin:latest
+
+volumes:
+    realdebrid:
+        external: true

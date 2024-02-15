@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  rclone_rd:
+    image: itstoggle/docker-volume-rclone_rd:amd64
+    container_name: rclone_rd
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: /bin/bash /config/mount-folder.sh $RD_API_KEY
+    environment:
+      - RD_API_KEY=${RD_API_KEY}
+    networks:
+      - container_network
+    depends_on:
+      - transmission
+    labels:
+      - "com.centurylinklabs.watchtower.enable=false"

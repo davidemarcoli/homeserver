@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Item>
+  <ContentRating>PG-13</ContentRating>
+  <Added>02/12/2024 19:56:57</Added>
+  <LockData>true</LockData>
+  <LocalTitle>The Hunger Games Collection</LocalTitle>
+  <PremiereDate>2023-11-15</PremiereDate>
+  <DisplayOrder>PremiereDate</DisplayOrder>
+  <ProductionYear>2023</ProductionYear>
+  <Genres>
+    <Genre>Drama</Genre>
+    <Genre>Science Fiction</Genre>
+    <Genre>Action</Genre>
+  </Genres>
+  <Studios>
+    <Studio>Lionsgate</Studio>
+    <Studio>Color Force</Studio>
+    <Studio>about:blank</Studio>
+  </Studios>
+  <CollectionItems>
+    <CollectionItem>
+      <Path>/media/movies/The.Hunger.Games.The.Ballad.of.Songbirds.and.Snakes.2023.2160p.WEB-DL.DDP5.1.Atmos.HDR.DV.HP8.by.DVT.mkv/The.Hunger.Games.The.Ballad.of.Songbirds.and.Snakes.2023.2160p.WEB-DL.DDP5.1.Atmos.HDR.DV.HP8.by.DVT.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/media/movies/[ Torrent911.pw ] The.Hunger.Games.The.Ballad.of.Songbirds.and.Snakes.2023.MULTi.HDR.2160p.WEB.H265-FW.mkv/[ Torrent911.pw ] The.Hunger.Games.The.Ballad.of.Songbirds.and.Snakes.2023.MULTi.HDR.2160p.WEB.H265-FW.mkv</Path>
+    </CollectionItem>
+  </CollectionItems>
+</Item>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Item>
+  <ContentRating>CH-14</ContentRating>
+  <Added>02/12/2024 19:56:57</Added>
+  <LockData>true</LockData>
+  <LocalTitle>Avatar Collection</LocalTitle>
+  <PremiereDate>2022-12-14</PremiereDate>
+  <DisplayOrder>PremiereDate</DisplayOrder>
+  <ProductionYear>2022</ProductionYear>
+  <Genres>
+    <Genre>Science Fiction</Genre>
+    <Genre>Adventure</Genre>
+    <Genre>Action</Genre>
+  </Genres>
+  <Studios>
+    <Studio>20th Century Studios</Studio>
+    <Studio>Lightstorm Entertainment</Studio>
+  </Studios>
+  <CollectionItems>
+    <CollectionItem>
+      <Path>/media/movies/Avatar.The.Way.of.Water.2022.REPACK.1080p.MA.3200MB.DD5.1.x264-GalaxyRG[TGx]/Avatar.The.Way.of.Water.2022.REPACK.1080p.MA.3200MB.DD5.1.x264-GalaxyRG.mkv</Path>
+    </CollectionItem>
+    <CollectionItem>
+      <Path>/media/movies/Avatar The Way of Water 2023 UHD 4K BluRay 2160p ReMux HEVC HDR10 TrueHD 7.1 Atmos - MgB/Avatar The Way of Water 2023 UHD 4K BluRay 2160p ReMux HEVC HDR10 TrueHD 7.1 Atmos - MgB.mkv</Path>
+    </CollectionItem>
+  </CollectionItems>
+</Item>
