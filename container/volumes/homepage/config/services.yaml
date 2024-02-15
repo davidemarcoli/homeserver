@@ -1,0 +1,89 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Media:
+    - Sonarr:
+        icon: sonarr.png
+        href: http://localhost:8989/
+        description: Series management
+        siteMonitor: http://localhost:8989/
+    - Radarr:
+        icon: radarr.png
+        href: http://localhost:7878/
+        description: Movie management
+        siteMonitor: http://localhost:7878/
+    - Prowlaar:
+        icon: prowlarr.png
+        href: http://localhost:9696/
+        description: Indexer management
+        siteMonitor: http://localhost:9696/
+    - Jellyfin:
+        icon: jellyfin.png
+        href: http://localhost:8096/
+        description: Media management
+        siteMonitor: http://localhost:8096/
+    - Plex:
+        icon: plex.png
+        href: http://localhost:32400/
+        description: Media management
+        siteMonitor: http://localhost:32400/
+
+- Streaming:
+    - Stremio:
+        icon: /icons/stremio.png
+        href: https://app.strem.io/
+        description: Streaming management
+        #ping: https://app.strem.io/
+        siteMonitor: https://app.strem.io/
+    - Real-Debrid:
+        icon: real-debrid.png
+        href: https://real-debrid.com/
+        description: Streaming management
+        #ping: https://real-debrid.com/
+        siteMonitor: https://real-debrid.com/
+
+- Server Management:
+    - Portainer:
+        icon: portainer.png
+        href: http://localhost:9000/
+        description: Docker management
+        ping: http://localhost:9000/
+        server: my-docker
+        container: portainer
+        weight: -1
+    #- Heimdall:
+    #    icon: heimdall.png
+    #    href: http://localhost:8080/
+    #    description: Dashboard management
+    #    ping: http://localhost:8080/
+    #- Organizr:
+    #    icon: organizr.png
+    #    href: http://localhost:80/
+    #    description: Dashboard management
+    #    ping: http://localhost:80/
+    #- Netdata:
+    #    icon: netdata.png
+    #    href: http://localhost:19999/
+    #    description: Monitoring management
+    #    ping: http://localhost:19999/
+    #- Grafana:
+    #    icon: grafana.png
+    #    href: http://localhost:3000/
+    #    description: Monitoring management
+    #    ping: http://localhost:3000/
+
+#- My First Group:
+#    - My First Service:
+#        href: http://localhost/
+#        description: Homepage is awesome
+#
+#- My Second Group:
+#    - My Second Service:
+#        href: http://localhost/
+#        description: Homepage is the best
+#
+#- My Third Group:
+#    - My Third Service:
+#        href: http://localhost/
+#        description: Homepage is 😎

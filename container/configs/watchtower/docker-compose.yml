@@ -1,0 +1,14 @@
+version: "3"
+services:
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - WATCHTOWER_NOTIFICATIONS=gotify
+      - WATCHTOWER_NOTIFICATION_GOTIFY_URL=http://host.docker.internal:8080/
+      - WATCHTOWER_NOTIFICATION_GOTIFY_TOKEN=AHIuGazCCIxS367
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: "unless-stopped"
