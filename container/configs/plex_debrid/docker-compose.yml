@@ -1,0 +1,10 @@
+name: plex_debrid
+services:
+    plex_debrid:
+        image: itstoggle/plex_debrid
+        container_name: plex_debrid
+        volumes:
+            - .:/config
+        network_mode: host
+        tty: true
+        stdin_open: true
