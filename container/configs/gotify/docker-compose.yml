@@ -3,6 +3,7 @@ version: "3"
 services:
   gotify:
     image: gotify/server
+    container_name: gotify
     ports:
       - 8080:80
     environment:
@@ -10,3 +11,9 @@ services:
     volumes:
       - "../../volumes/gotify/data:/app/data"
     restart: "unless-stopped"
+    labels:
+      - homepage.group=Server Management
+      - homepage.name=Gotify
+      - homepage.icon=gotify.png
+      - homepage.href=http://localhost:8080/
+      - homepage.description=Notification management
