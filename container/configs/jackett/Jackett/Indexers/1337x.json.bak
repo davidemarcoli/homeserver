@@ -9,13 +9,13 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": null
+    "value": "cf_clearance=Ujy_KnJd__IZhnS5447aQ42U95xJycYz5FuzvcoKwRk-1708257323-1.0-Aek9bIC60GQiUTe7nlGbb0xB4lLhOqMN85lUFSAjq/d94Q2eqS5mlsYmWzpDwrx+kfjtZUARHouW0EyN3rBnDcg=; cf_chl_3=c305eab67df6dbd"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Exception (1337x): HTTP StatusCode not 200 or 500. Status is :NotFound: HTTP StatusCode not 200 or 500. Status is :NotFound"
   },
   {
     "id": "downloadlink",

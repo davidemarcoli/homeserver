@@ -9,13 +9,13 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "PHPSESSID=o3mupimce8s7074bfpclq2s57h"
+    "value": "PHPSESSID=83fiqksin4gskeaol0ok3e8p90"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": null
+    "value": "Got captcha during automatic login, please reconfigure manually"
   },
   {
     "id": "excluderesultswhichincludeadvertisements",

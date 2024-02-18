@@ -1,16 +1,18 @@
 watch:
   workers: 20
   schedule: "0 */6 * * *"
+  #schedule: "* * * * *"
   jitter: 30s
 
 notif:
   gotify:
-    endpoint: "http://host.docker.internal:8080/"
-    token: "ArdGN3Wv9P6.pFG"
+    endpoint: http://host.docker.internal:8080/
+    token: ArdGN3Wv9P6.pFG
     priority: 1
     timeout: 10s
     templateTitle: "{{ .Entry.Image }} released"
     templateBody: "Docker Tag {{ .Entry.Image }} which is subscribed through {{ .Entry.Provider }} has been released."
 
 providers:
-  docker: true
+  docker:
+    watchByDefault: true
